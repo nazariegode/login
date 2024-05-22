@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url(fondo.png);
+    background-size: 100%;
+}
+
+.register {
+    width: 430px;
+    height: auto;
+    background-color: #ffffff;
+    margin: 10% auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #00000049;  
+
+}
+
+.register .register-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 0 ;
+    color: #188c88;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.register .register-header .logo {
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid #ffffff;
+    object-fit: cover;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -70px;  
+    box-shadow: 3px 3px 5px #00000049;  
+}
+
+.register .register-body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #cccccc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.register .register-body .register-input {
+    width: 100%;
+    display: inline-block;
+    margin: 6px 0;
+    background-color: #d7d6d647;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+
+.register .register-body .register-input input {
+    width: 100%;
+    border: 20px;
+    background-color: transparent;
+    padding-left: 20px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.register .register-body .terms {
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.register .register-body .register-button {
+    border: 0;
+    padding: 17px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: #188c88;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.register .register-body .register-member {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register .register-body .register-member p{
+    font-size: 1em;
+    color: #188c88;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.register .register-body .register-member a{
+    color: #188c88;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
